@@ -1,3 +1,5 @@
 ---
 - name: Install php
-  shell: apt install -y php.x86_64
+  ansible.builtin.apt:
+    name: php
+    state: present
