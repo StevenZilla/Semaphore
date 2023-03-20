@@ -5,5 +5,5 @@
   become_method: sudo
 
   tasks:
-    - inclide_role:
-          name: Install_php
+    - include_role:
+         name: Install_php
