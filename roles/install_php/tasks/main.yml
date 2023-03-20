@@ -1,5 +1,5 @@
 ---
 - name: Install php
-  ansible.builtin.apt:
-    name: php
+  apt:
+    name: apache2
     state: present
